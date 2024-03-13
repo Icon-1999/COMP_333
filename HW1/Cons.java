@@ -30,4 +30,4 @@ public class Cons implements ImmutableList {
     public int length() { return 1 + tail.length(); }
     public boolean contains(final int value) { return head == value || tail.contains(value); }
     public ImmutableList append(final ImmutableList other) { return new Cons(head, tail.append(other)); }
-} // Cons
+} // Cons0
